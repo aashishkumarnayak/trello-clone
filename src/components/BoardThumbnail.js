@@ -11,7 +11,7 @@ const Thumbnail = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 60px;
   box-shadow: 0 2px 4px grey;
 `;
 

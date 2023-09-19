@@ -52,8 +52,8 @@ class TrelloBoard extends PureComponent {
 
     return (
       <DragDropContext onDragEnd={this.onDragEnd}>
-        <Link to="/">Go Back</Link>
-        <h2>{board.title}</h2>
+        <Link to="/" style={{ color: 'white'}}>Go Back</Link>
+        <h2 style={{ color: 'white'}} >{board.title}</h2>
         <Droppable droppableId="all-lists" direction="horizontal" type="list">
           {provided => (
             <ListsContainer

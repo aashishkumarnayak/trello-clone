@@ -42,6 +42,7 @@ const CreateInput = styled.input`
   align-self: center;
 `;
 
+
 const Home = ({ boards, boardOrder, dispatch }) => {
   // this is the home site that shows you your boards and you can also create a Board here.
 
